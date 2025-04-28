@@ -3,56 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Delicious Catering</title>
+  <title>Annalakshmi Catering</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
     }
     header {
-      background: #ff7043;
+      background-color: #000000;
       color: white;
       padding: 20px;
-      font-size: 2em;
+      text-align: center;
     }
-    .content {
-      margin: 30px;
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 2px #000;
+      margin: 0;
+    }
+    nav {
+      background-color: #e63946;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #000000;
+      text-align: center;
+    }
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .section-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      margin: 20px;
+    }
+    .section-content div {
+      flex: 1 1 400px;
+      padding: 20px;
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
     }
     .whatsapp-button {
-      background: #25D366;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
       color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1.2em;
-      cursor: pointer;
+      padding: 15px 20px;
+      border-radius: 50px;
+      font-size: 18px;
       text-decoration: none;
-      display: inline-block;
-      margin-top: 20px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+      z-index: 1000;
     }
     .whatsapp-button:hover {
-      background: #1ebe57;
+      background-color: #128c7e;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  Delicious Catering Services
-</header>
+  <header>
+    <h1>Annalakshmi Catering</h1>
+  </header>
 
-<div class="content">
-  <h2>We make your events delicious!</h2>
-  <p>Birthday parties, weddings, corporate events — we cater all with love and flavor.</p>
+  <nav>
+    <a href="#catering">Catering</a>
+    <a href="#batter">Raw Batter</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="catering">
+    <h2>Quality Food for Every Occasion</h2>
+    <div class="section-content">
+      <div>
+        <p>At Annalakshmi Catering, we pride ourselves on delivering delicious and high-quality food for every special occasion. We provide catering and delivery services across Chennai and Uthukottai. Whether it’s a grand wedding, a family function, or a corporate event — we make every meal memorable!</p>
+      </div>
+      <img src="https://t4.ftcdn.net/jpg/02/75/39/31/360_F_275393147_SA3KtHDTUMoEn6hBbhNiTPeO92gHYgyr.jpg" alt="Catering Food Image">
+    </div>
+  </section>
+
+  <section class="section" id="batter">
+    <h2>Special! Raw Idli & Dosa Batter</h2>
+    <div class="section-content">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicKi-A_a_942COk2MOAaXzzxgI3k-_vI3LHQ1NpSMJSqff9810z2MPacss5nc_N-1diqhno2bsLokHdYMSUeblBagEIV0au7pAjoOFYG1n8LvQxqwBOfjjgN45yGap81vNzjDtIcsqNU4/s1600/Breakfast+recipes.JPG" alt="Idli Dosa Batter Image">
+      <div>
+        <p>Introducing our premium Idli/Dosa batter — made with the highest quality ingredients. Just cut open the pack and make fluffy soft idlis or crispy dosas without any worries. Freshly prepared and delivered to your doorstep across Chennai and Uthukottai!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us for Orders and Delivery</h2>
+    <div style="text-align: center; font-size: 1.2rem; padding: 20px;">
+      <p>📞 Call us: <strong>9952099945</strong></p>
+      <p>📱 WhatsApp us:</p>
+      <a href="https://wa.me/919952099945" style="color: #25d366; text-decoration: none; font-weight: bold; font-size: 1.5rem;" target="_blank">
+        Click here to WhatsApp
+      </a>
+      <p style="margin-top: 20px;">
+        🚚 For delivery, kindly share your location on WhatsApp. We’ll ensure a smooth delivery to your doorstep! <br>
+        🏠 We are located at Uthukottai, Chennai.
+      </p>
+      <p>
+        📍 Find us on Google Maps: <br>
+        <a href="https://maps.app.goo.gl/PeW9qzTfMem5TXJR7" target="_blank" style="color: #e63946; text-decoration: none; font-weight: bold;">
+          View Location on Google Maps
+        </a>
+      </p>
+    </div>
+  </section>
   
-  <!-- WhatsApp Button -->
+
+  <footer id="contact">
+    <p>Located at Uthukottai, Chennai | Delivery available for large orders | Contact us on WhatsApp for quick orders!</p>
+  </footer>
+
   <a class="whatsapp-button" href="https://wa.me/919952099945" target="_blank">
-    Order on WhatsApp
+    WhatsApp Us
   </a>
-</div>
 
 </body>
 </html>
